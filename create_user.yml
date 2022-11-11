@@ -1,0 +1,11 @@
+---
+- name: This file is to create a new user
+  hosts: all
+  become: true
+  vars:
+    user: sunny
+  tasks:
+    - name: to create user {{ user }}
+      user:
+        name: "{{ user }}"
+...

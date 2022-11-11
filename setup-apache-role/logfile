@@ -1,0 +1,15 @@
+
+PLAY [To install tree] *********************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [172.31.39.148]
+ok: [172.31.37.192]
+
+TASK [installing tree package] *************************************************
+ok: [172.31.39.148]
+ok: [172.31.37.192]
+
+PLAY RECAP *********************************************************************
+172.31.37.192              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+172.31.39.148              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
